@@ -1,7 +1,9 @@
 from Pessoa import Cidade
 from Pessoa import Pessoa
 from Pedido import Pedido
-from Categoria import Categoria 
+from Categoria import Categoria
+
+
 cid01 = Cidade()
 cid02 = Cidade("Porto Alegre")
 
