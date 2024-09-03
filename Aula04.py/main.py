@@ -30,5 +30,6 @@ print(ped01.addProduto(prod02))
 
 ped01.imprimir()
 
+from perecivel import Perecivel
 
-
+Prod01Per01 = Perecivel("Alface", 3.99, cat01, 10)
