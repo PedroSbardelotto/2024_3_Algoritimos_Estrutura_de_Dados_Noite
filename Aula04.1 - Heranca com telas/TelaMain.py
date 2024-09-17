@@ -9,4 +9,4 @@ app = QApplication(sys.argv)
 
 telaPerecivel = TelaPerecivel()
 telaPerecivel.show()
-sys.exit( app.exec_() )
+sys.exit( app.exec_() ) 
