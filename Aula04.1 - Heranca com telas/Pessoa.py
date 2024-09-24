@@ -7,3 +7,9 @@ class Pessoa:
         self.nome = nome
         self.altura = altura
         self.cidade = cid
+
+    def __str__(self) -> str:
+        txt = "Nome: " + self.nome + "\n"
+        txt += "Atura: " + str(self.altura) + "\n"
+        txt += "Cidade: " + str(self.cidade.nome) + "\n"
+        return txt
